@@ -4,8 +4,6 @@
     font-family: Calibri, sans-serif;
 }
 
-
-
 .floatleft {
     float: left;
 }
@@ -16,4 +14,69 @@
 
 .clearboth {
     clear: both;
+}
+
+
+
+.progress{
+
+    text-align:center;
+    background-color:yellow;
+    margin:auto;
+}
+
+.side{
+    width: 25%;
+    height: 100vh;
+    background-color:dimgrey;
+    margin:auto;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    background-color: darkgray;
+    margin: auto;
+    
+
+}
+
+.content {
+    width: 50%;
+    margin-top: 80px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+li p {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+li a:hover {
+        background-color: #111;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
 }
