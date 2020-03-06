@@ -18,8 +18,8 @@
 
 body {
     background-image: url("https://wallpaperaccess.com/full/846661.png");
-    background-size:cover;
-
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .progress{
@@ -29,12 +29,50 @@ body {
     margin:auto;
 }
 
-.main {
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    opacity: 0.9;
+    /*background-color: rgba(0, 0, 0, 0.5);*/
+    position: fixed;
+    top: 0;
     width: 100%;
-    
+    z-index: 999;
 }
 
-.content {
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li p {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.main {
+    width: 100%;
+}
+
+.wscreen {
     height: 100vh;
     width: 100%;
     text-align: center;
@@ -57,40 +95,8 @@ body {
     text-shadow: 4px 4px 6px black;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-}
-
-li a {
-        display: block;
-        color: white;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-    }
-li p {
-        display: block;
-        color: white;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-    }
-
-li a:hover {
-        background-color: #111;
-}
-
-.navbar {
-    overflow: hidden;
-    background-color: #333;
-    opacity: 0.9;
-    /*background-color: rgba(0, 0, 0, 0.5);*/
-    position: fixed;
-    top: 0;
+.who {
+    background-color: #031342;
     width: 100%;
-    z-index: 999;
+    height: 200px;
 }
