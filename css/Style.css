@@ -80,7 +80,7 @@ li a:hover {
 }
 
 .welcome {
-    color: aliceblue;
+    color: azure;
     width: 60%;
     height: 100px;
     position: absolute;
@@ -92,7 +92,7 @@ li a:hover {
 }
 
 .yes {
-    text-shadow: 4px 4px 6px black;
+    text-shadow: 1px 1px 4px black;
 }
 
 .who {
