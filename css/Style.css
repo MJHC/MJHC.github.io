@@ -145,3 +145,27 @@ li a:hover {
     border-radius: 100%;
     box-shadow: 1px 1px 4px black;
 }
+
+.scontainer{
+    margin-top: 5%;
+    width: 25%;
+    color:aliceblue;
+}
+
+.scontainer > h4 {
+    margin-left: 40%;
+}
+
+.mypic {
+    width: 50%;
+    display: block;
+    border-radius: 100%;
+    box-shadow: 1px 1px 4px black;
+    margin: auto;
+}
+
+.paragraph {
+    width: 50%;
+    margin-top: 8%;
+    color:aliceblue;
+}
