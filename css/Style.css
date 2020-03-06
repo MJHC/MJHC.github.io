@@ -22,6 +22,33 @@ body {
     background-attachment: fixed;
 }
 
+.background {
+    background-size: cover;
+    background-attachment: fixed;
+    height: 60vh;
+}
+
+.hb {
+    background-image: url("../images/hobbies.jpg");
+}
+
+.ub {
+    background-image: url("https://www.proshopeurope.com/media/566524/AAU-01.jpg");
+}
+
+.pb {
+    background-image: url("https://www.bounteous.com/sites/default/files/styles/default/public/insights/2019-10/previews/20191003_blog_scoping_a_data_science_project_in_a_smarter_way_website.png?itok=TKaHtpX-");
+}
+
+.kb {
+    background-image: url("https://www.itl.cat/pngfile/big/91-919373_negative-space-cell-phone-on-table.jpg");
+}
+
+.spacer {
+    height: 1vh;
+    background-color: #313131;
+}
+
 .progress{
 
     text-align:center;
@@ -31,7 +58,7 @@ body {
 
 .navbar {
     overflow: hidden;
-    background-color: #333;
+    background-color: #313131;
     opacity: 0.9;
     /*background-color: rgba(0, 0, 0, 0.5);*/
     position: fixed;
@@ -65,7 +92,7 @@ li p {
 }
 
 li a:hover {
-    background-color: #111;
+    background-color: #ca3e47;
 }
 
 .main {
@@ -95,8 +122,26 @@ li a:hover {
     text-shadow: 1px 1px 4px black;
 }
 
-.who {
-    background-color: #031342;
+.contentcontainer {
+    background-color: #414141;
+    text-shadow: 1px 1px 4px black;
     width: 100%;
-    height: 200px;
+    height: 50vh;
+}
+
+.content{
+    width: 50%;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+.content > p{
+    color:aliceblue;
+}
+
+.pic {
+    width: 25%;
+    display: block;
+    border-radius: 100%;
+    box-shadow: 1px 1px 4px black;
 }
