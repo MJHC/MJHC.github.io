@@ -102,6 +102,10 @@ li a:hover {
     margin: auto;
 }
 
+.spacer{
+    height: 80px;
+
+}
 
 /*
     Content
@@ -117,5 +121,48 @@ li a:hover {
     background-color: #fcfcfc;
     margin: auto;
     margin-top: 40px;
-    box-shadow: 1px 1px 8px #bababa;
+    box-shadow: 0px 0px 3px #bababa;
+}
+
+/*
+    Pictures
+*/
+
+.pcenter {
+    width: 30%;
+    height:100%;
+}
+
+.pic {
+    width: 70%;
+    display: block;
+    border-radius: 100%;
+    box-shadow: 0px 0px 3px #bababa;
+    margin: auto;
+    margin-top: 25%;
+    margin-bottom: 25%;
+}
+
+/*
+    Resumé
+*/
+.resume {
+    font-size: 20px;
+    width: 50%;
+    height: 50%;
+    
+    margin-top: 10%;
+}
+
+/*
+    Text
+*/
+.headline {
+    font-weight: 600;
+    display: block;
+    color: #9c9c9c;
+}
+
+p {
+    color: #9c9c9c;
 }
