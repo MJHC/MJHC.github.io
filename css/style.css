@@ -122,7 +122,6 @@ nav li a:hover {
 }
 
 .fiftysize {
-    height: 500px;
     width: 48%;
     border-radius: 6px;
     background-color: #fcfcfc;
@@ -141,6 +140,7 @@ nav li a:hover {
     width:60%;
     margin:auto;
     margin-top: 10%;
+    margin-bottom: 10%;
 
 }
 
