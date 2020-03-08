@@ -4,6 +4,11 @@
     font-family: Calibri, sans-serif;
 }
 
+body {
+    background-color: #f7f7f7;
+    font-family: 'Spartan', sans-serif;
+}
+
 .floatleft {
     float: left;
 }
@@ -16,50 +21,21 @@
     clear: both;
 }
 
-body {
-    background-image: url("https://wallpaperaccess.com/full/846661.png");
-    background-size: cover;
-    background-attachment: fixed;
-}
 
-.background {
-    background-size: cover;
-    background-attachment: fixed;
-    height: 60vh;
-}
-
-.hb {
-    background-image: url("../images/hobbies.jpg");
-}
-
-.ub {
-    background-image: url("https://www.proshopeurope.com/media/566524/AAU-01.jpg");
-}
-
-.pb {
-    background-image: url("https://www.bounteous.com/sites/default/files/styles/default/public/insights/2019-10/previews/20191003_blog_scoping_a_data_science_project_in_a_smarter_way_website.png?itok=TKaHtpX-");
-}
-
-.kb {
-    background-image: url("https://www.itl.cat/pngfile/big/91-919373_negative-space-cell-phone-on-table.jpg");
-}
-
-.spacer {
-    height: 1vh;
-    background-color: #313131;
-}
-
-.progress{
-
-    text-align:center;
-    background-color:yellow;
-    margin:auto;
+/*
+    Navigation
+*/
+.progress {
+    text-align: center;
+    background-color: yellow;
+    margin: auto;
 }
 
 .navbar {
     overflow: hidden;
-    background-color: #313131;
-    opacity: 0.9;
+    outline: solid;
+    outline-color: #e8e8e8;
+    /*opacity: 0.9;*/
     /*background-color: rgba(0, 0, 0, 0.5);*/
     position: fixed;
     top: 0;
@@ -69,45 +45,53 @@ body {
 
 ul {
     list-style-type: none;
+    
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #fcfcfc;
 }
-
 li a {
+    font-family: 'Spartan', sans-serif;
     display: block;
-    color: white;
+    color: #9c9c9c;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 li p {
+    font-family: 'Spartan', sans-serif;
+    font-weight: 600;
     display: block;
-    color: white;
+    color: #9c9c9c;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 li a:hover {
-    background-color: #ca3e47;
+    background-color: #e8e8e8;
 }
 
-.main {
-    width: 100%;
-}
 
-.wscreen {
+/*
+    Welcome Screen
+
+*/
+.welcome {
+    z-index: 999999;
     height: 100vh;
     width: 100%;
+    background-color: #f7f7f7;
     text-align: center;
     position: relative;
 }
 
-.welcome {
-    color: azure;
+.wmiddle {
+    color: #9c9c9c;
+    font-size:48px;
+    font-weight:100;
     width: 60%;
     height: 100px;
     position: absolute;
@@ -118,54 +102,20 @@ li a:hover {
     margin: auto;
 }
 
-.yes {
-    text-shadow: 1px 1px 4px black;
+
+/*
+    Content
+*/
+.container{
+    height: 100vh;
 }
 
-.contentcontainer {
-    background-color: #414141;
-    text-shadow: 1px 1px 4px black;
-    width: 100%;
-    height: 50vh;
-}
-
-.content{
-    width: 50%;
-    margin-left:auto;
-    margin-right: auto;
-}
-
-.content > p{
-    color:aliceblue;
-}
-
-.pic {
-    width: 25%;
-    display: block;
-    border-radius: 100%;
-    box-shadow: 1px 1px 4px black;
-}
-
-.scontainer{
-    margin-top: 5%;
-    width: 25%;
-    color:aliceblue;
-}
-
-.scontainer > h4 {
-    margin-left: 40%;
-}
-
-.mypic {
-    width: 50%;
-    display: block;
-    border-radius: 100%;
-    box-shadow: 1px 1px 4px black;
+.content_container {
+    height: 500px;
+    width: 70%;
+    border-radius: 6px;
+    background-color: #fcfcfc;
     margin: auto;
-}
-
-.paragraph {
-    width: 50%;
-    margin-top: 8%;
-    color:aliceblue;
+    margin-top: 40px;
+    box-shadow: 1px 1px 8px #bababa;
 }
