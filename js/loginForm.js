@@ -6,17 +6,23 @@ function getUserData(){
 
   if(user == "admin" && pass == "admin"){
     /*window.open("home.html", "_self");*/
-    window.alert("This function is under construction")
+    error("This function is under construction", 0);
   }else{
-    error("Wrong Username and/or Password");
+    error("Wrong Username and/or Password", 1);
   }
 }
 
 function createUser(){
-  error("This function is under construction");
+  error("This function is under construction", 1);
 }
 
-function error(msg){
+function error(msg, s){
+  if(s == 0){
+    document.getElementById("error").style.color = "#00ffa2";
+  } else if (s == 1){
+    document.getElementById("error").style.color = "#ff003c";
+  }
+
   document.getElementById("wmiddle").style.height = "225px";
   document.getElementById("error").style.display = "block";
   document.getElementById("error").innerHTML = msg;
