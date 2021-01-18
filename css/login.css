@@ -1,3 +1,8 @@
+body {
+    font-family: 'Spartan', sans-serif;
+    background-image: linear-gradient(45deg, #00ff6e, #00fff7);
+}
+
 #welcome {
     z-index: 999999;
     height: 100vh;
@@ -86,4 +91,25 @@
     padding-top: 18px;
     color: #ff003c;
     font-weight: 600;
+}
+
+input[type=text], input[type=password]{
+    border: none;
+    border-radius: 6px;
+
+    background-color: #3b3d53;
+    color: #4e5067;
+
+    width: 85%;
+    height: 30px;
+
+    margin: 10px;
+    padding-left: 10px;
+
+    font-size: 28px;
+    
+}
+
+input:focus{
+    outline: none;
 }

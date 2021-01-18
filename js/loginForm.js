@@ -5,7 +5,7 @@ function getUserData(){
   var pass = document.getElementById("pass").value;
 
   if(user == "admin" && pass == "admin"){
-    /*window.open("home.html", "_self");*/
+    /*window.open("settings.html", "_self");*/
     error("This function is under construction", 0);
   }else{
     error("Wrong Username and/or Password", 1);
