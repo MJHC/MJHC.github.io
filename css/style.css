@@ -5,8 +5,8 @@
 }
 
 body {
-    background-color: #f7f7f7;
     font-family: 'Spartan', sans-serif;
+    background-image: linear-gradient(45deg, #00ff6e, #00fff7);
 }
 
 .floatleft {
@@ -21,31 +21,24 @@ body {
     clear: both;
 }
 
+input[type=text], input[type=password]{
+    border: none;
+    border-radius: 6px;
 
-.welcome {
-    z-index: 999999;
-    height: 100vh;
-    width: 100%;
-    background-color: #f7f7f7;
-    text-align: center;
-    position: relative;
+    background-color: #3b3d53;
+    color: #4e5067;
+
+    width: 85%;
+    height: 30px;
+
+    margin: 10px;
+    padding-left: 10px;
+
+    font-size: 28px;
+    
 }
 
-.wmiddle {
-    color: #9c9c9c;
-    font-weight: 100;
-    font-size: 18px;
-    width: 60%;
-    height: 100px;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    margin: auto;
-}
-
-#yeet {
-    font-size: 48px;
+input:focus{
+    outline: none;
 }
 

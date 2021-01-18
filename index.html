@@ -5,20 +5,37 @@
     <title>MJHC</title>
     <link href="css/style.css" type="text/css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Spartan:400,500&display=swap" rel="stylesheet">
-	<link href="css/style.css" type="text/css" rel="stylesheet">
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+    <link href="css/login.css" type="text/css" rel="stylesheet">
+    <script src="js/Jqeury.js"></script>
+    
     <link rel="icon" href="images/favicon.png">
+
+
 </head>
 <body>
-    <div class="welcome">
-        <div class="wmiddle">
-            <p id="yeet">
-                Min Hjemmeside
-            </p>
-            <p>Magnus Harder</p>
+    <div id="welcome">
+        <h1 id="intro">Sheiko Concept</h1>
+        <div id="wmiddle">
+            <div id="loginContainer">
+                <form>
+                    <input type="text" value="username" id="user">
+                    <input type="password" value="password" id="pass">
+                </form>
+            </div>
+
+            <div id="loginFormButtons">
+                <form>
+                    <input type="button" id="createAcc" value="Create Account" class="floatleft" onclick="createUser()">
+                    <input type="button" id="login" value="login" class="floatright" onclick="getUserData()">
+                    <p id="error" class="floatleft">ERROR</p>
+                </form>
+                
+            </div>
         </div>
 
     </div>
 
-    <script src="js/Javascript.js"></script>
+    <script src="js/loginForm.js"></script>
 </body>
 </html>
