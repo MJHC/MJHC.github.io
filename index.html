@@ -19,15 +19,15 @@
         <div id="wmiddle">
             <div id="loginContainer">
                 <form>
-                    <input type="text" value="username" id="user">
-                    <input type="password" value="password" id="pass">
+                    <input type="text" value="username" id="user" onclick="this.select();">
+                    <input type="password" value="password" id="pass" onclick="this.select();">
                 </form>
             </div>
 
             <div id="loginFormButtons">
                 <form>
-                    <input type="button" id="createAcc" value="Create Account" class="floatleft" onclick="createUser()">
-                    <input type="button" id="login" value="login" class="floatright" onclick="getUserData()">
+                    <input type="button" id="createAcc" value="Create Account" class="floatleft" onclick="createUser();">
+                    <input type="button" id="login" value="login" class="floatright" onclick="getUserData();">
                     <p id="error" class="floatleft">ERROR</p>
                 </form>
                 
