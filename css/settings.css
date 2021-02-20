@@ -49,3 +49,32 @@
 
   font-size: 32px;
 }
+
+#details{
+  background-color: #4e5067;
+  border-radius: 6px;
+  width: 40%;
+  height: 80%;
+  margin-top: 80px;
+  margin-left: 20px;
+}
+
+input[type=text], input[type=password]{
+  border: none;
+  border-radius: 6px;
+
+  background-color: #3b3d53;
+  color: #4e5067;
+
+  width: 40%;
+  height: 30px;
+
+  margin: 10px;
+  padding-left: 10px;
+
+  font-size: 28px;
+}
+
+input:focus{
+  outline: none;
+}

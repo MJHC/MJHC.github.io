@@ -1,41 +1,35 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
-    <title>Sheiko Concept</title>
-    <link href="css/style.css" type="text/css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Spartan:400,500&display=swap" rel="stylesheet">
-    <link href="css/style.css" type="text/css" rel="stylesheet">
-    <link href="css/login.css" type="text/css" rel="stylesheet">
-    <script src="js/Jqeury.js"></script>
-    
-    <link rel="icon" href="images/favicon.png">
-
+  <meta charset="UTF-8">
+  <title>Sheiko Concept</title>
+  <link href="css/style.css" type="text/css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Spartan:400,500&display=swap" rel="stylesheet">
+  <link href="css/style.css" type="text/css" rel="stylesheet">
+  <link href="css/login.css" type="text/css" rel="stylesheet">
+  <script src="js/Jqeury.js"></script>
+  <link rel="icon" href="images/favicon.png">
 
 </head>
 <body>
-    <div id="welcome">
-        <h1 id="intro">Sheiko Concept</h1>
-        <div id="wmiddle">
-            <div id="loginContainer">
-                <form>
-                    <input type="text" value="username" id="user" onclick="this.select();">
-                    <input type="password" value="password" id="pass" onclick="this.select();">
-                </form>
-            </div>
-
-            <div id="loginFormButtons">
-                <form>
-                    <input type="button" id="createAcc" value="Create Account" class="floatleft" onclick="createUser();">
-                    <input type="button" id="login" value="login" class="floatright" onclick="getUserData();">
-                    <p id="error" class="floatleft">ERROR</p>
-                </form>
-                
-            </div>
-        </div>
-
+  <div id="welcome">
+    <h1 id="intro">Sheiko Concept</h1>
+      <div id="wmiddle">
+        <!--
+          - method should be changed to POST
+          - Fix styling 
+          - Fix Class and id names
+          - Get server running
+        -->
+        <form action="home.html" method="GET">
+          <input type="text" name="user" placeholder="username" id="user" required>
+          <input type="password" name="pass" placeholder="password" id="pass" required>
+          <input type="button" id="createAcc" value="Create Account" class="floatleft">
+          <input type="submit" id="login" value="login" class="floatright">
+          <p id="error" class="floatleft">ERROR</p>
+        </form>
+      </div>
     </div>
-
-    <script src="js/loginForm.js"></script>
+  <script src="js/loginForm.js"></script>
 </body>
 </html>
