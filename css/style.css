@@ -5,276 +5,48 @@
 }
 
 body {
-    background-color: #f7f7f7;
+    background-color: rgb(39, 32, 51);
+    color: rgb(227, 226, 253);
     font-family: 'Spartan', sans-serif;
 }
 
-.floatleft {
-    float: left;
-}
-
-.floatright {
-    float: right;
-}
-
-.clearboth {
-    clear: both;
-}
-
-/*
-    Navigation
-*/
-.progress {
-    text-align: center;
-    background-color: yellow;
-    margin: auto;
-}
-
-nav {
-    overflow: hidden;
-    box-shadow: 0px 0px 10px #bababa;
-    /*opacity: 0.9;*/
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 999;
-}
-
-nav ul {
-    list-style-type: none;   
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #fcfcfc;
-}
-nav li a {
-    font-family: 'Spartan', sans-serif;
-    display: block;
-    color: #9c9c9c;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-nav li p {
-    font-family: 'Spartan', sans-serif;
-    font-weight: 600;
-    display: block;
-    color: #9c9c9c;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-nav li a:hover {
-    background-color: #e8e8e8;
-}
-
-
-/*
-    Welcome Screen
-
-*/
-.welcome {
-    z-index: 999999;
-    height: 100vh;
-    width: 100%;
-    background-color: #f7f7f7;
-    text-align: center;
-    position: relative;
-}
-
-.wmiddle {
-    color: #9c9c9c;
-    font-size:48px;
-    font-weight:100;
-    width: 60%;
-    height: 100px;
-    position: absolute;
+#contents{
+    width: 65%;
+    height: fit-content;
     top: 0;
     bottom: 0;
     right: 0;
     left: 0;
     margin: auto;
+    position: absolute; 
 }
 
-.spacer{
-    height: 80px;
-
+.title{
+    text-align: center;
+    font-size: 60px;
 }
 
-/*
-    Content
-*/
-.container{
-    height: 100vh;
+.intro{
+    font-size: 30px;
+    text-align: center;
 }
 
-.content_container {
-    height: 600px;
-    width: 70%;
-    border-radius: 6px;
-    background-color: #fcfcfc;
-    margin: auto;
-    margin-top: 40px;
-    box-shadow: 0px 0px 3px #bababa;
-}
-
-.fiftysize {
-    width: 48%;
-    border-radius: 6px;
-    background-color: #fcfcfc;
-    box-shadow: 0px 0px 3px #bababa;
-    margin-bottom: 40px;
-}
-
-.cthrou {
-    height: 1150px;
-    width: 70%;
-    margin: auto;
-    margin-top: 40px;
-}
-
-.naj{
-
-    width:60%;
-    margin:auto;
-    margin-top: 10%;
-    margin-bottom: 10%;
-
-}
-
-/*
-    Pictures
-*/
-.pcenter {
-    width: 30%;
-    height: 100%;
-}
-
-.pic {
-    width: 70%;
-    display: block;
-    border-radius: 100%;
-    box-shadow: 0px 0px 3px #bababa;
-    margin: auto;
-    margin-top: 25%;
-    margin-bottom: 25%;
-}
-
-/*
-    Resumé
-*/
-.resume {
-    font-size: 20px;
-    width: 50%;
-    height: auto;    
-    margin-top: 8%;
-    margin-bottom: 8%;
-}
-
-.projects {
-    font-size: 20px;
-    width: 50%;
-    height: 50%;
-    margin-top: 8%;
-    margin-left: 25%;
-    background-color: red;
-}
-
-.contact{
-    height: 200px;
-    width: 100%;
-    background-color:red;
-}
-
-/*
-    Text
-*/
-.headline {
-    font-size: 50px;
-    font-weight:100;
-    display: block;
-    color: #9c9c9c;
-}
-
-p {
-    color: #9c9c9c;
-}
-
-/*
-    List
-*/
-ul {
-    list-style-type: none;
-}
-
-li {
-    font-family: 'Spartan', sans-serif;
-    color: #9c9c9c;
+.repo-container{
+    margin: 10px;
     padding: 10px;
+    width: 250px;
+    height: 185px;
+    float: left;
+
+    border-radius: 25px;
+    background-color: rgb(39, 32, 51);
+    border: 5px solid rgb(52, 43, 68);
 }
 
-.footer {
-    width: 100%;
-    height: 10vh;
-    text-align: center;
-    overflow: hidden;
-    /*opacity: 0.9;*/
-    bottom: 0;
+.repo-container > a{
+ color: white;
 }
 
-.footer > p {
-    margin-top: 2%;
+.repo-container > h1{
+    font-size: 26px;
 }
-
-/*selecter*/
-
-.select {
-    height: 100vh;
-    width: 100%;
-    background-color: #f7f7f7;
-
-    
-}
-
-.selectercontainer > p {
-    font-weight:300;
-}
-
-.selectercontainer {
-    color: #9c9c9c;
-    font-size: 48px;
-    font-weight: 100;
-    width: 45%;
-    text-align: center;
-    height: 300px;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    margin: auto;
-    border-radius: 6px;
-    background-color: #fcfcfc;
-    box-shadow: 0px 0px 10px #bababa;
-}
-
-.sulbox{
-
-    width: 40%;
-    margin:auto;
-    text-decoration:none;
-}
-
-.sulbox li > a {
-        display: block;
-        color: #9c9c9c;
-        text-decoration: none;
-    }
-
-    .sulbox li > a:hover {
-        display: block;
-        color: #e8e8e8;
-        text-decoration: none;
-    }
